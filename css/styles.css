@@ -191,8 +191,8 @@ h1,h2,h3{ font-family:var(--ff-disp); font-weight:700; line-height:.98; text-tra
 .hero__cta{ display:flex; flex-wrap:wrap; gap:14px; }
 .hero__media{ position:relative; }
 .hero__media .frame{ aspect-ratio:3/4; max-width:380px; margin-inline:auto; }
-.hero__stamp{ position:absolute; top:-14px; right:6px; font-family:var(--ff-mono); font-size:10px; letter-spacing:.2em;
-  color:var(--amber); border:1px solid var(--amber); padding:6px 10px; text-transform:uppercase; transform:rotate(0deg); background:#0b0d0ccc; }
+.hero__stamp{ position:absolute; top:14px; left:14px; z-index:3; font-family:var(--ff-mono); font-size:10px; letter-spacing:.18em;
+  color:var(--amber); border:1px solid var(--amber); padding:6px 10px; text-transform:uppercase; white-space:nowrap; background:#0b0d0ce6; }
 
 /* listwa danych pod hero */
 .statbar{ position:relative; z-index:1; border-top:1px solid var(--line); }
